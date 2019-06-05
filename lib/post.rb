@@ -18,5 +18,6 @@ class Post
      return @author.name
    else 
      nil
+   end
   end
 end
