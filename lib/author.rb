@@ -11,7 +11,7 @@ class Author
     @posts
   end
   
-  def add_post(post)
+  def add_post
     post.author = self
     @posts << post
     @@post_counter += 1
